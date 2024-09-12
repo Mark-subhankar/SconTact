@@ -1,0 +1,40 @@
+    .NavbarItem-link {
+        position: relative;
+        text-decoration: none;
+        color: inherit;
+    }
+    
+    .NavbarItem-link:hover::after {
+        content: '';
+        position: absolute;
+        left: 0;
+        bottom: 1px;
+        width: 100%;
+        height: 2px;
+        background-color: #ffffff;
+        /* Change the color as needed */
+    }
+    
+    .NavbarItem-link:active {
+        color: #008080;
+    }
+    
+    .NavBar {
+        background-color: rgb(64, 224, 208);
+    }
+    
+    #Btn {
+        background-color: #0ABAB5;
+    }
+    
+    #Btn:hover {
+        background-color: #008080;
+    }
+    
+    .offcanvas-header {
+        background-color: rgb(64, 224, 208);
+    }
+    
+    .Title {
+        margin-left: 15px;
+    }
